@@ -19,7 +19,7 @@ async function getData(recipe) {
       img.setAttribute("style", "height:200px;width:100%");
       let card_body = createTag("div", "card-body");
 
-      //HealthLabels
+      //Health
       let health_div = createTag("div", "heathLabels");
       health_div.innerHTML = `<!-- Button trigger modal -->
       <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#exampleModal">
