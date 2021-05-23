@@ -1,0 +1,44 @@
+.header {
+    background-color: rgb(13, 14, 13);
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+    padding-top: 7px;
+    color: aliceblue;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 600px;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.search {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search input {
+    width: 500px;
+    height: 40px;
+    outline: none;
+}
+
+.search button {
+    outline: none;
+    position: absolute;
+    left: 1000px;
+    height: 40px;
+    border-radius: 0%;
+}
+
+.search button::shadow {
+    outline: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
